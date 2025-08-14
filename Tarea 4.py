@@ -1,14 +1,13 @@
-con = input("A quien desea contactar: ")
+#Pide al usuario su año de nacimiento y di si es mayor de edad.
 
-dic = {
-    "Carlos": "04123344545",
-    "Eren": "0414322654"} 
+fecha = int(input("Ingresar año de nacimiento: "))
 
-if con == "Carlos":
-    print(f"El numero es:", dic["Carlos"])
+edad = 2025 - fecha
 
-elif con == "Eren":
-    print(f"El numero es:", dic["Eren"])
+mayor = (edad >= 18)
+
+if mayor:
+    print("Eres mayor de edad")
 
 else:
-    print("Contacto no encontrado")
+    print("Eres menor de edad")

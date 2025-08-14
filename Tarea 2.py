@@ -1,9 +1,11 @@
-lista = []
+#Guarda tu nombre, edad y ciudad en variables y muéstralo en una frase.
 
-lista.append("Queso")
-lista.append("Leche")
-lista.append("Lechuga")
+nombre = "Ezequiel Garcia"
 
-print(f"los articulos en la lista son:{lista}")
+edad = 18
 
-print(f"la cantidad de articulos que hay en la lista son: {len(lista)}")
+ciudad = "Maracaibo"
+
+print(f"Mi nombre es {nombre} y tengo {edad} años y vivo en la ciudad de {ciudad}, y mi meta es\n"
+      "llegar a ser un programador")
+

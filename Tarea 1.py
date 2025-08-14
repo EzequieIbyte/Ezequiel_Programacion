@@ -1,13 +1,10 @@
-num1 = float(input("Ingresar numero: "))
-num2 = float(input("Ingresar numero: "))
+#Calcula el total a pagar en un restaurante, incluyendo una propina del 15%.
 
-resultado = num1 + num1
-resultado1 = num1 - num2
-resultado2 = num1 * num2
-resultado3 = num1 / num2
+pagar = float(input("Agregue el total a pagar: "))
 
-print(f"la suma es:{resultado}")
-print(f"la resta es:{resultado1}")
-print(f"la multiplicacion es:{resultado2}")
-print(f"la division es:{resultado3}")
+propina = pagar * 0.15
+
+total = propina + pagar
+
+print(f"La cuenta total es:{total}")
 
